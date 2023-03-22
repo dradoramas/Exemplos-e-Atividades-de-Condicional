@@ -14,6 +14,8 @@ leia(n1)
 escreva("digite um número")
 leia(n2)
 
+limpatela 
+
 soma <- n1+n2;
 escreval("soma=",soma)
 
