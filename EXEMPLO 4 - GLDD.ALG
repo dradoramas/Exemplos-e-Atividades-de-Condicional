@@ -1,9 +1,9 @@
-Algoritmo "Exemplo 1"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "Exemplo 4"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Renato
-// Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 21/03/2023
+
 Var
 nome: caractere
 media: real
@@ -16,13 +16,13 @@ escreva("digite seu nome =")
 leia(nome)
 escreva("digite sua idade =")
 leia(idade)
-escreva("digite sua nota do 1° Bimestre =")
+escreva("digite sua nota do 1Â° Bimestre =")
 leia(nota1)
-escreva("digite sua nota do 2° Bimestre =")
+escreva("digite sua nota do 2Â° Bimestre =")
 leia(nota2)
-escreva("digite sua nota do 3° Bimestre =")
+escreva("digite sua nota do 3Â° Bimestre =")
 leia(nota3)
-escreva("digite sua nota do 4° Bimestre =")
+escreva("digite sua nota do 4Â° Bimestre =")
 leia(nota4)
 
 
@@ -31,11 +31,11 @@ escreval(" ")
 
 escreval("Nome =",nome)
 escreval("Idade =",idade)
-escreval("1° Bimestre =",nota1)
-escreval("2° Bimestre =",nota2)
-escreval("3° Bimestre =",nota3)
-escreval("4° Bimestre =",nota4)
-escreval("Média Anual =",media)
+escreval("1Â° Bimestre =",nota1)
+escreval("2Â° Bimestre =",nota2)
+escreval("3Â° Bimestre =",nota3)
+escreval("4Â° Bimestre =",nota4)
+escreval("MÃ©dia Anual =",media)
 
 
 
