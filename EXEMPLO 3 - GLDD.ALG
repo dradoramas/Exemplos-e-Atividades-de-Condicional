@@ -1,9 +1,9 @@
-Algoritmo "Exemplo 1"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "Exemplo 3"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Renato
-// Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 21/03/2023
+
 Var
 altura,base,area:real
 
@@ -15,15 +15,11 @@ escreva("digite a base")
 leia(base)
 
 area <- (altura*base)/2;
-escreval("resultado da área=",area)
+escreval("resultado da Ã¡rea=",area)
 
 escreval("Altura=",altura)
 escreval("Base=",base)
 
-// F i m
-
-
-
-
+// Fim
 
 Fimalgoritmo
