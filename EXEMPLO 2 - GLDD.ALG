@@ -1,35 +1,35 @@
-Algoritmo "Exemplo 1"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "Exemplo 2"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Renato
-// Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 21/03/2023
+
 Var
 n1,n2,soma,subtracao,multiplicacao,divisao:real
 
 Inicio
 
-escreva("digite um número")
+escreva("digite um nÃºmero")
 leia(n1)
-escreva("digite um número")
+escreva("digite um nÃºmero")
 leia(n2)
 
 soma <- n1+n2;
 escreval("soma=",soma)
 
 subtracao <- n1-n2;
-escreval("subtração=",subtracao)
+escreval("subtraÃ§Ã£o=",subtracao)
 
 multiplicacao <- n1*n2;
-escreval("multiplicação=",multiplicacao)
+escreval("multiplicaÃ§Ã£o=",multiplicacao)
 
 divisao <- n1/n2;
-escreval("divisão=",divisao)
+escreval("divisÃ£o=",divisao)
 
-escreval("primeiro número=",n1)
-escreval("segundo número=",n2)
+escreval("primeiro nÃºmero=",n1)
+escreval("segundo nÃºmero=",n2)
 
-// F i m
+// Fim
 
 
 
