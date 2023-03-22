@@ -9,16 +9,21 @@ altura,base,area:real
 
 Inicio
 
-escreva("digite a altura")
+escreva("digite a altura: ")
 leia(altura)
-escreva("digite a base")
+escreva("digite a base: ")
 leia(base)
 
-area <- (altura*base)/2;
-escreval("resultado da área=",area)
+limpatela 
 
-escreval("Altura=",altura)
-escreval("Base=",base)
+
+escreval("Altura: ",altura)
+escreval("Base: ",base)
+escreval(" ")
+
+area <- (altura*base)/2;
+escreval("resultado da área: ",area)
+
 
 // Fim
 
