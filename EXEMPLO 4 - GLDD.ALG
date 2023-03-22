@@ -26,6 +26,9 @@ leia(nota3)
 escreva("digite sua nota do 4° Bimestre: ")
 leia(nota4)
 
+media <- (nota1+nota2+nota3+nota4)/4;
+escreval(" ")
+
 limpatela
 
 escreval("Nome: ",nome)
@@ -36,8 +39,7 @@ escreval("3° Bimestre: ",nota3)
 escreval("4° Bimestre: ",nota4)
 escreval("Média Anual: ",media)
 
-media <- (nota1+nota2+nota3+nota4)/4;
-escreval(" ")
+
 
 
 
