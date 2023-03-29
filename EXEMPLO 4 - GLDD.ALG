@@ -1,6 +1,6 @@
 Algoritmo "Exemplo 4"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Renato
+// Professor   : Carlos
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 21/03/2023
 
