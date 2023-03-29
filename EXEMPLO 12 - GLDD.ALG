@@ -14,6 +14,7 @@ idade: inteiro
 
 Inicio
 
+//Função do Usuario, criação de Cadastro!
  escreval("Seja Bem-Vindo")
  escreval("Vamos realizar seu cadastro!")
  escreval(" ")
@@ -23,7 +24,8 @@ Inicio
  leia(nascimentoempregado)
  
  limpatela
- 
+
+//Verificação e Login no cadastro
 Escreval("Entre!")
 Escreva("Digite seu ID: ")
 leia(id)
@@ -34,6 +36,7 @@ limpatela
 
 idade <- (2023-nascimentoempregado)
 
+//Verificação da aposentadoria
 se (id=idempregado) e (nascimento=nascimentoempregado) então
 escreval("Olá, Bem-Vindo Trabalhador 1º!")
    se (idade>=65) ou (anostrabalhados>=30) então
@@ -44,8 +47,6 @@ escreval("Olá, Bem-Vindo Trabalhador 1º!")
 senão
 escreval("ID ou ano de nascimento, INCORRETO!")
 fimse
-
- 
 
 
 Fimalgoritmo
