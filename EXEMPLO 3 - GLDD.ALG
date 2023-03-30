@@ -1,8 +1,7 @@
 Algoritmo "Atividade 3"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
-// Descrição   : Construa um algoritmo para ler dois números. Em seguida, calcule a soma, subtração, multiplicação e a divisão desses números, armazenando os resultados
-// em outras variáveis. Imprima os dados iniciais e os resultados. 
+// Descrição   : Faça um algoritmo para ler a base e a altura de um triangulo. Em seguida, calcular a sua área. Imprimir: base, altura e a área.  
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 21/03/2023
 
