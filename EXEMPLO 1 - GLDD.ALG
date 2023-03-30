@@ -1,7 +1,7 @@
 Algoritmo "Exemplo 1"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Renato
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Carlos 
+// DescriÃ§Ã£o   : Construa um algoritmo para calcular a soma de dois nÃºmeros.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 21/03/2023
 Var
@@ -9,13 +9,16 @@ Var
 
 Inicio
 
-escreva("digite um número")
+escreva("digite um nÃºmero")
 leia(n1)
-escreva("digite um número")
+escreva("digite um nÃºmero")
 leia(n2)
+
+limpatela
+
 soma <- n1+n2;
-escreval("primeiro número=",n1)
-escreval("segundo número=",n2)
+escreval("primeiro nÃºmero=",n1)
+escreval("segundo nÃºmero=",n2)
 escreval("soma=",soma)
 
 Fimalgoritmo
