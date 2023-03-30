@@ -1,6 +1,6 @@
-Algoritmo "Exemplo 2"
+Algoritmo "Atividade 2"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Renato
+// Professor   : Carlos
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 21/03/2023
 
@@ -9,29 +9,29 @@ n1,n2,soma,subtracao,multiplicacao,divisao:real
 
 Inicio
 
-escreva("digite um número: ")
+escreva("Digite seu 1° número: ")
 leia(n1)
-escreva("digite um número: ")
+escreva("Digite seu 2° número: ")
 leia(n2)
 
 limpatela 
 
-escreval("primeiro número: ",n1)
-escreval("segundo número: ",n2)
+escreval("1° Número: ",n1)
+escreval("2° Número: ",n2)
 
 escreval(" ")
 
 soma <- n1+n2;
-escreval("soma: ",soma)
+escreval("Soma: ",soma)
 
 subtracao <- n1-n2;
-escreval("subtração: ",subtracao)
+escreval("Subtração: ",subtracao)
 
 multiplicacao <- n1*n2;
-escreval("multiplicação: ",multiplicacao)
+escreval("Multiplicação: ",multiplicacao)
 
 divisao <- n1/n2;
-escreval("divisão: ",divisao)
+escreval("Divisão: ",divisao)
 
 
 // Fim
