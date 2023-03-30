@@ -9,16 +9,16 @@ Var
 
 Inicio
 
-escreva("digite um número")
+escreva("Digite seu 1° número: ")
 leia(n1)
-escreva("digite um número")
+escreva("Digite seu 2° número: ")
 leia(n2)
 
 limpatela
 
 soma <- n1+n2;
-escreval("primeiro número=",n1)
-escreval("segundo número=",n2)
-escreval("soma=",soma)
+escreval("1° número: ",n1)
+escreval("2° número: ",n2)
+escreval("soma: ",soma)
 
 Fimalgoritmo
