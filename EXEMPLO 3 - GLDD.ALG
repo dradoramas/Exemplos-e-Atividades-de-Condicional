@@ -1,6 +1,8 @@
-Algoritmo "Exemplo 3"
+Algoritmo "Atividade 3"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Renato
+// Professor   : Carlos
+// Descrição   : Construa um algoritmo para ler dois números. Em seguida, calcule a soma, subtração, multiplicação e a divisão desses números, armazenando os resultados
+// em outras variáveis. Imprima os dados iniciais e os resultados. 
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 21/03/2023
 
@@ -9,20 +11,23 @@ altura,base,area:real
 
 Inicio
 
-escreva("digite a altura: ")
+//Função do usuário.
+escreva("Digite a sua altura: ")
 leia(altura)
-escreva("digite a base: ")
+escreva("Digite a sua base: ")
 leia(base)
 
 limpatela 
 
+//Expressão númerica com a formula do triangulo. 
+area <- (altura*base)/2;
+escreval("Resultado da Área: ",area)
 
+escreval(" ") 
+
+//Impressão dos valores anteriores. 
 escreval("Altura: ",altura)
 escreval("Base: ",base)
-escreval(" ")
-
-area <- (altura*base)/2;
-escreval("resultado da área: ",area)
 
 
 // Fim
