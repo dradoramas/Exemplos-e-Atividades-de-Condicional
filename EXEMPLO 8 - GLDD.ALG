@@ -1,58 +1,60 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e L�gica de Programa��o]
+Algoritmo "Atividade 8"
+// Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
+// Descrição   : Elabore um algoritmo para receber dois inteiros como entrada do teclado e escreva na tela: 
+A média, a soma, o produto, o menor valor e o maior valor. 
+Além disso, verifique se os números informados pelo usuário são iguais. 
+Usando uma linha para cada resultado.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 28/03/2023
 
 Var
+
  media, soma, produto,  menorvalor, maiorvalor: real
  numero1,numero2: inteiro
 
-
 Inicio
 
-Escreva("Digite seu 1� n�mero: ")
+//Atividade do usuário
+Escreval("Digite seu 1° número: ")
 leia(numero1)
-Escreva("Digite seu 2� n�mero: ")
+Escreval("Digite seu 2° número: ")
 leia(numero2)
 
 limpatela
 
+//Calculos:
 media <- (numero1+numero2)/2
-soma <- numero1+numero2
-produto <- numero1*numero2
+soma <- (numero1+numero2)
+produto <- (numero1*numero2)
 
+//Condicional SE Composta com uma condição simples, para averiguar qual termo é maior e a, igualdade dos números.
+se (numero1=numero2) então
+    escreval("Os números são iguais!")
+senão
+se (numero1>numero2) então
+   escreval("O Maior Número é o: ", numero1)
+senão (numero1<numero2)
+   escreval("O Maior Número é o: ", numero2)
+fimse
+fimse
 
-se numero1>numero2 ent�o
-   escreva("Maior N�mero � o: ", numero1)
-sen�o numero1<numero2
-   escreva("Maior N�mero � o: ", numero2)
+//Condicional SE Composta com uma condição simples, para averiguar qual termo é menor e, evitar a repetição do escreval de igualdade dos números.
+se (numero1=numero2) então
+senão
+se (numero2>numero1) então
+   escreval("O Menor Número é o: ", numero1)
+senão (numero2<numero1)
+   escreval("O Menor Número é o: ", numero2)
+fimse
 fimse
 
 escreval(" ")
 
-se numero2>numero1 ent�o
-   escreva("Menor N�mero � o: ", numero1)
-sen�o numero2<numero1
-   escreva("Menor N�mero � o: ", numero2)
-fimse
-
-escreval(" ")
-
-se numero1=numero2 ent�o
-escreval("Os n�meros s�o iguais!")
-fimse
-
-Escreval("M�dia: ", media:6:2)
+//Impressão do Calculo para o usuário.
+Escreval("Média: ", media:6:2)
 Escreval("Soma: ",soma)
 Escreval("Produto: ", produto)
 
 
-
-Escreval(" ")
-
-
 Fimalgoritmo
-
-
-
