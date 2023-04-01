@@ -1,48 +1,56 @@
-Algoritmo "Exemplo 7"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Renato
+Algoritmo "Atividade 7"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Carlos
+// DescriÃ§Ã£o   : Elabore um algoritmo para receber dois inteiros como entrada do teclado e escreva na tela: 
+A mÃ©dia, a soma, o produto, o menor valor e o maior valor. 
+Usando uma linha para cada resultado. 
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 23/03/2023
+
 Var
- media, soma, produto,  menorvalor, maiorvalor: real
+
+ media, soma, produto: real
  numero1,numero2: inteiro
 
 Inicio
 
-Escreva("Digite seu 1° número: ")
+//Atividade do usuÃ¡rio 
+Escreva("Digite seu 1Â° nÃºmero: ")
 leia(numero1)
-Escreva("Digite seu 2° número: ")
+Escreva("Digite seu 2Â° nÃºmero: ")
 leia(numero2)
 
 limpatela
 
+//Calculos: 
 media <- (numero1+numero2)/2
-soma <- numero1+numero2
-produto <- numero1*numero2
+soma <- (numero1+numero2)
+produto <- (numero1*numero2)
 
-se numero1>numero2 então
-   escreva("Maior Número é o: ", numero1)
-senão numero1<numero2
-   escreva("Maior Número é o: ", numero2)
+
+//Condicional SE Composta para verficar o maior nÃºmero.
+se (numero1>numero2) entÃ£o
+   escreva("Maior NÃºmero Ã© o: ", numero1)
+senÃ£o (numero1<numero2)
+   escreva("Maior NÃºmero Ã© o: ", numero2)
 fimse
 
 escreval(" ")
 
-se numero2>numero1 então
-   escreva("Menor Número é o: ", numero1)
-senão numero2<numero1
-   escreva("Menor Número é o: ", numero2)
+//Condicional SE Simples para verficar o menor nÃºmero.
+se (numero2>numero1) entÃ£o
+   escreva("Menor NÃºmero Ã© o: ", numero1)
+senÃ£o (numero2<numero1)
+   escreva("Menor NÃºmero Ã© o: ", numero2)
 fimse
 
 escreval(" ")
 
-Escreval("Média: ", media:6:2)
-Escreval("Soma: ",soma)
+//ImpressÃ£o para o usuÃ¡rio.
+Escreval("MÃ©dia: ", media:6:2)
+Escreval("Soma: ", soma)
 Escreval("Produto: ", produto)
 
-Escreval(" ")
-
-
-
+//Fim
 
 Fimalgoritmo
