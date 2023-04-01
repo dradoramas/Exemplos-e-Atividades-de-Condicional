@@ -1,8 +1,12 @@
 Algoritmo "Exemplo 6"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
+// Descrição   : Elabore um algoritmo para ler o nome de um aluno, sua idade (em anos) e as três notas. Calcular a média anual do aluno. 
+Caso a média do aluno seja menor que 7, o aluno está reprovado. 
+Imprimir: nome, idade, média e se está aprovado ou reprovado.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 23/03/2023
+
 Var
 
 nome:caractere
@@ -12,9 +16,10 @@ media: real
 
 Inicio
 
-escreva("Digite seu nome: ")
+//Ação do usuário
+escreval("Digite seu nome: ")
 leia(nome)
-escreva("Digite sua idade: ")
+escreval("Digite sua idade: ")
 leia(idade)
 
 escreval(" ")
@@ -28,13 +33,17 @@ leia(nota3)
 
 limpatela
 
+//Expressão para o resultado da média 
 media <- (nota1+nota2+nota3)/3
-se media>=7 então
-escreval("Aprovado!")
-senão media<7
-escreval("Reprovado!")
+
+//Condicional SE Composta para a média.
+se (media>=7) então
+   escreval("Aprovado!")
+senão (media<7)
+      escreval("Reprovado!")
 fimse
 
+//Impressão para o usuário.
 escreval("Nome: ",nome)
 escreval("Idade: ",idade)
 escreval("1° Unidade: ",nota1)
@@ -42,5 +51,6 @@ escreval("2° Unidade: ",nota2)
 escreval("3° Unidade: ",nota3)
 escreval("Média Anual: ",media:2:1)
 
+//Fim
 
 Fimalgoritmo
