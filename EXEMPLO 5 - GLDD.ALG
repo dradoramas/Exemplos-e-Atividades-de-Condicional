@@ -19,16 +19,20 @@ leia(numero)
 
 limpatela
 
-//Condicional SE Composta com dois escreval para cada condição.
-se (numero>=10) então
-    escreval("O Número é maior ou igual a 10!")
+//Condicional SE Simples com uma Condicional Composta com três escreval para cada condição.
+se (numero=10) então
+    escreval("O seu número é 10!")
+senão
+se (numero>10) então
+    escreval("O Número é maior que 10!")
     escreval("Seu número é: ", numero)
 senão (numero<10)
     escreval("O Número é menor que 10!")
     escreval("Seu número é: ", numero)
 fimse
+fimse
     
-//fim
+//Fim
 
  Fimalgoritmo
 
