@@ -1,4 +1,4 @@
-Algoritmo "Exemplo 6"
+Algoritmo "Atividade 6"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Carlos
 // Descrição   : Elabore um algoritmo para ler o nome de um aluno, sua idade (em anos) e as três notas. Calcular a média anual do aluno. 
