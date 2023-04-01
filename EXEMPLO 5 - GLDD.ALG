@@ -1,6 +1,9 @@
-Algoritmo "Exemplo 5"
+Algoritmo "Atividade 5"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Renato
+// Descrição   : Elabore um algoritmo para ler um valor e escrever a mensagem: “É MAIOR QUE 10!". 
+Se o valor lido for maior que 10, caso contrário escrever “NÃO É MAIOR QUE 10!” 
+Verifique se o número digitado é igual a 10, caso seja, escreva a mensagem: "O número é igual a 10!" 
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 22/03/2023
 
@@ -10,18 +13,20 @@ numero: real
 
 Inicio
 
-    escreval("Digite seu número: ")
-    leia(numero)
+//Ação do usuário.
+escreval("Digite seu número: ")
+leia(numero)
 
 limpatela
 
-    se (numero>=10) então
+//Condicional SE Composta com dois escreval para cada condição.
+se (numero>=10) então
     escreval("O Número é maior ou igual a 10!")
     escreval("Seu número é: ", numero)
-    senão (numero<10)
+senão (numero<10)
     escreval("O Número é menor que 10!")
     escreval("Seu número é: ", numero)
-    fimse
+fimse
     
 //fim
 
