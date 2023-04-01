@@ -4,7 +4,7 @@ Atividades de Fixação feita no VISUALG
 Compartilhando meu desenvolvimento profissional com você.
 
 // Bem, do "EXEMPLO 1" ao "EXEMPLO 4" são atividades de sintaxe e tipos de dados. Com impressões simples, para iniciar graduativamente um aprofundamento na área, assim
-criando a sua propria lógica de programação. 
+criando a sua própria lógica de programação. 
 
 OBS: Fazer comentários em cada progresso é essencial para o desenvolvimento do intelecto do aluno.
 
