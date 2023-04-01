@@ -13,6 +13,7 @@ loginarmazenado, senhaarmazenada: caractere
 
 Inicio
 
+//Ação do usuário, adição dos seus dados no banco, para a criação de um cadastro. 
 Escreva("Bem-Vindo novo usuário!")
 escreval(" ")
 Escreva("Vamos iniciar seu cadastro!")
@@ -24,6 +25,7 @@ leia(senhaarmazenada)
 
 limpatela
 
+//Verificação de Cadastro
 Escreval("Entre!")
 Escreva("Digite seu Login: ")
 leia(login)
@@ -32,10 +34,11 @@ leia(senha)
 
 limpatela
 
+//Condicional SE Composta para a correção de um possível erro no login ou senha. 
 se (senha=senhaarmazenada) e (login=loginarmazenado) então
-escreval("Olá, 1º Usuário!")
+      escreval("Olá, 1º Usuário!")
 senão
-escreval("Algo deu errado, verifique seu login e senha e, tente novamente!")
+      escreval("Algo deu errado, verifique seu login e senha e, tente novamente!")
 fimse
 
 //Fim
