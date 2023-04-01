@@ -36,7 +36,7 @@ limpatela
 //O que é a idade:
 idade <- (2023-nascimentoempregado)
 
-//Verificação da aposentadoria, a mesma só sairá após verificação de ID e Nascimento. 
+//Verificação da aposentadoria, com Condicional SE Simples com uma Composta. A mesma só sairá após verificação de ID e Nascimento. 
 se (id=idempregado) e (nascimento=nascimentoempregado) então
 escreval("Olá, Bem-Vindo Trabalhador 1º!")
    se (idade>=65) ou (anostrabalhados>=30) então
