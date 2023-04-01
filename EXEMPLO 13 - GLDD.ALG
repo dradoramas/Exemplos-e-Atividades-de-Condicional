@@ -1,10 +1,11 @@
-Algoritmo "EXEMPLO 13"
-// Disciplina  :  [Linguagem e Lógica de Programação]
+Algoritmo "Atividade 13"
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : As maças custam $1,30 cada se forem compradas menos de uma dúzia, e $1,00 se forem compradas pelo menos 12.
-// Escreva um programa que leia o númerode maças compradas, calcule e escreva o custo total da compra.
+// DescriÃ§Ã£o   : As maÃ§as custam $1,30 cada se forem compradas menos de uma dÃºzia, e $1,00 se forem compradas pelo menos 12.
+// Escreva um programa que leia o nÃºmerode maÃ§as compradas, calcule e escreva o custo total da compra.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 30/03/2023
+
 Var
 
    numeromacas: inteiro
@@ -13,40 +14,41 @@ Var
 
 Inicio
 
-   //Introdução ao código, função do usuário.
-   Escreval("Bem-Vindo ao Mercado União")
+   //IntroduÃ§Ã£o ao cÃ³digo, AÃ§Ã£o do usuÃ¡rio.
+   Escreval("Bem-Vindo ao Mercado Dra. Doramas!")
    escreval(" ")
-   Escreval("Verficação de preço das maças!")
-   Escreval("Lembrando que comprando uma dúzia, cada maça saí por R$1,00!")
+   Escreval("VerficaÃ§Ã£o de preÃ§o das maÃ§as!")
+   Escreval("Lembrando que comprando uma dÃºzia, cada maÃ§a saÃ­ por R$1,00!")
    Escreval(" ")
-   Escreval("Número de Maças: ")
+   Escreval("NÃºmero de MaÃ§as: ")
    leia(numeromacas)
 
    limpatela
 
-   //Adição de valores
+   //AdiÃ§Ã£o de valores
    unidade <- 1.30
    duziaoumais <- 1.00
 
-   //Se número de maças for maior que 12.
+   //Condicional SE Simples para o nÃºmero de maÃ§as for maior que 12.
    se (numeromacas >= 12) entao
       escreval(" ")
    total <-(duziaoumais*numeromacas)
-      escreval("Valor Total a ser pago é R$", Total:6:2)
+      escreval("Valor Total a ser pago Ã© R$", Total:6:2)
    fimse
 
-   //Se número de maças for menor que 12.
+   //Condicional SE Simples para o nÃºmero de maÃ§as for menor que 12.
     se(numeromacas <= 12) entao
       escreval(" ")
       total <-(unidade*numeromacas)
-      escreval("Valor Total a ser pago é R$", Total:6:2)
+      escreval("Valor Total a ser pago Ã© R$", Total:6:2)
    fimse
 
 
 escreval(" ")
 
-Escreval("Número Total de Maças: ", numeromacas)
+//ImpressÃ£o do total de maÃ§as que foram pedidas no inÃ­cio.
+Escreval("NÃºmero Total de MaÃ§as: ", numeromacas)
 
-
+//Fim
 
 Fimalgoritmo
