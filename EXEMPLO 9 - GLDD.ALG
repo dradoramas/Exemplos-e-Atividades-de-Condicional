@@ -1,8 +1,11 @@
-Algoritmo "EXEMPLO 9"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "Atividade 9"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos
+// Descri√ß√£o   : Elabore um algoritmo para receber o login e a senha de um usu√°rio. 
+Caso o usu√°rio e a senha estejam corretos, mostre a mensagem "Bem-vindo!", caso contr√°rio, mostre a mensagem "Login ou senha inv√°lidos."
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 28/03/2023
+
 Var
 
 login, senha: caractere
@@ -10,7 +13,7 @@ loginarmazenado, senhaarmazenada: caractere
 
 Inicio
 
-Escreva("BEM-VINDO")
+Escreva("Bem-Vindo novo usu√°rio!")
 escreval(" ")
 Escreva("Vamos iniciar seu cadastro!")
 escreval(" ")
@@ -29,10 +32,12 @@ leia(senha)
 
 limpatela
 
-se (senha=senhaarmazenada) e (login=loginarmazenado) ent„o
-escreval("Ol·, JOGADOR 1∫!")
-sen„o
-escreval("Pane no sistema, alguÈm me desconfigurou!")
+se (senha=senhaarmazenada) e (login=loginarmazenado) ent√£o
+escreval("Ol√°, 1¬∫ Usu√°rio!")
+sen√£o
+escreval("Algo deu errado, verifique seu login e senha e, tente novamente!")
 fimse
+
+//Fim
 
 Fimalgoritmo
