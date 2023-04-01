@@ -1,20 +1,19 @@
-Algoritmo "EXEMPLO 12"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "Atividade 12"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos
-// DescriÁ„o   : Elabore um algoritmo usando operaÁıes lÛgicas para uma empresa que quer verificar se um empregado est· qualificado para a aposentadoria ou n„o.
-// Autor(a)    : Nome do(a) aluno(a)
+// Descri√ß√£o   : Elabore um algoritmo usando opera√ß√µes l√≥gicas para uma empresa que quer verificar se um empregado est√° qualificado para a aposentadoria ou n√£o.
+// Autor(a)    : Gisele Leite de Deus 
 // Data atual  : 29/03/2023
+
 Var
 
 idempregado, id: caractere
 nascimento, nascimentoempregado, anostrabalhados: inteiro
 idade: inteiro
 
-
-
 Inicio
 
-//FunÁ„o do Usuario, criaÁ„o de Cadastro!
+//Fun√ß√£o do Usuario, cria√ß√£o de Cadastro!
  escreval("Seja Bem-Vindo")
  escreval("Vamos realizar seu cadastro!")
  escreval(" ")
@@ -25,7 +24,7 @@ Inicio
  
  limpatela
 
-//VerificaÁ„o e Login no cadastro
+//Verifica√ß√£o e Login no cadastro
 Escreval("Entre!")
 Escreva("Digite seu ID: ")
 leia(id)
@@ -34,19 +33,21 @@ leia(nascimento)
 
 limpatela
 
+//O que √© a idade:
 idade <- (2023-nascimentoempregado)
 
-//VerificaÁ„o da aposentadoria
-se (id=idempregado) e (nascimento=nascimentoempregado) ent„o
-escreval("Ol·, Bem-Vindo Trabalhador 1∫!")
-   se (idade>=65) ou (anostrabalhados>=30) ent„o
+//Verifica√ß√£o da aposentadoria, a mesma s√≥ sair√° ap√≥s verifica√ß√£o de ID e Nascimento. 
+se (id=idempregado) e (nascimento=nascimentoempregado) ent√£o
+escreval("Ol√°, Bem-Vindo Trabalhador 1¬∫!")
+   se (idade>=65) ou (anostrabalhados>=30) ent√£o
       escreval("Pronto para se aposentar!")
-   sen„o
-      escreval("N„o est· pronto para se aposentar!")
+   sen√£o
+      escreval("N√£o est√° pronto para se aposentar!")
    fimse
-sen„o
+sen√£o
 escreval("ID ou ano de nascimento, INCORRETO!")
 fimse
 
+//Fim 
 
 Fimalgoritmo
