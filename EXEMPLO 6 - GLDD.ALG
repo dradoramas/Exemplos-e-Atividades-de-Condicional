@@ -40,7 +40,7 @@ media <- (nota1+nota2+nota3)/3
 se (media>=7) então
    escreval("Aprovado!")
 senão (media<7)
-      escreval("Reprovado!")
+   escreval("Reprovado!")
 fimse
 
 //Impressão para o usuário.
