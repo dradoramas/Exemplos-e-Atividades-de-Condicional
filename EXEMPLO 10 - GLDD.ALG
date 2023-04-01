@@ -1,31 +1,33 @@
-Algoritmo "EXEMPLO 10"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "Atividade 10"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Elabore um algoritmo usando operações lógicas para informar se uma pessoa é obrigatoria a votar. Considere que a regra é que menores de 18 e maiores que 65 não são obrigados a votar.
+// DescriÃ§Ã£o   : Elabore um algoritmo usando operaÃ§Ãµes lÃ³gicas para informar se uma pessoa Ã© obrigatoria a votar. 
+Considere que a regra Ã© que menores de 18 e maiores que 65 nÃ£o sÃ£o obrigados a votar.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 28/03/2023
+
 Var
 
- idade: inteiro
+idade: inteiro
  
 Inicio
 
+//AÃ§Ã£o do usuÃ¡rio 
 Escreva("BEM-VINDO")
 escreval(" ")
-
-Escreva("Você é obrigado a votar?")
+Escreva("VocÃª Ã© obrigado a votar?")
 escreval(" ")
-
-//Pedir ao usuario a idade
 Escreva("Digite sua idade: ")
 leia(idade)
 
 limpatela
 
-se (idade >= 18) e (idade <= 65) entao
-   escreval("Você precisa votar!")
-senao
-   escreval("Você não precisa votar!")
+//Condicional SE Composta para a verificaÃ§Ã£o de idade.
+se (idade >= 18) e (idade <= 65) entÃ£o
+   escreval("VocÃª precisa votar!")
+senÃ£o
+   escreval("VocÃª nÃ£o precisa votar!")
 fimse
 
+//Fim
 Fimalgoritmo
